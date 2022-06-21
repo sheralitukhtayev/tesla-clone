@@ -63,9 +63,14 @@ const RightMenu = styled.div `
     margin-right: 15px;
   }
 
+  @media(max-width: 768px) {
+    display: none;
+  }
+
 `
 
 const CustomMenu = styled.div`
+  cursor: pointer;
   img {
     width: 20px;
   }
