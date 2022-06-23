@@ -31,6 +31,10 @@ function Header() {
             <img src="images/x.png" onClick={()=>setBurgerStatus(false)} />
           </CustomClose>
         </CloseWrapper>
+        <li><a href="#">Model S</a></li>
+        <li><a href="#">Model 3</a></li>
+        <li><a href="#">Model X</a></li>
+        <li><a href="#">Model Y</a></li>
         <li><a href="#">Existing Inventory</a></li>
         <li><a href="#">Used Inventory</a></li>
         <li><a href="#">Trade-in</a></li>
